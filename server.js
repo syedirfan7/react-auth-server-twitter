@@ -9,8 +9,8 @@ const { Strategy: TwitterStrategy } = require("passport-twitter");
 // Private api keys that you will get when registering an app on
 // apps.twitter.com
 const TWITTER_CONFIG = {
-  consumerKey: "2krT06d6pF7CNWdUcLVOV1v7Q",
-  consumerSecret: "Onx360q2RFCEGLMZdsu4dz9xvHB0Seh066cAtpDUR7edxEryqw",
+  consumerKey: "your_consumer_key",
+  consumerSecret: "your_consumer_Secret",
   // make sure the call back url matches what was set on Twitter
   // when registering the app
   callbackURL: "http://127.0.0.1:8080/twitter/callback"
